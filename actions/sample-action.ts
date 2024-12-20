@@ -1,3 +1,4 @@
+"use server"
 export const SampleActions = async (input: string) => {
     console.log('SampleActions', input)
     return {
